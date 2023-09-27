@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "ProductSans";
+    src: url('font/Product-Sans-Regular.ttf');
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: ProductSans;
+  margin: 0;
+}
+
+nav {
+  display:flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin: 0%;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#menu {
+  height: 16px;
+  width: 16px;
+}
+
+a {
+  text-decoration:none;
+  padding: 20px;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  
+}
+
+#signin {
+  background-color: #1a73e8 ;
+  color: white;
+  margin-right: 20px;
+  padding: 8px 25px;
+  font-size: 17px;
+  border-radius: 3px;
+  margin-left: 15px;
+}
+
+#google {
+width: 300px;
+padding-top: 200px;
+margin-bottom: 10px;
+}
+
+main, form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+#search { 
+  text-align: left;
+  padding-left: 20px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  width: 600px;
+  height: 45px;
+  border: solid #d9d9d9 1px;
+  margin-bottom: 10px;
+}
+
+#search:hover{
+  box-shadow: 0 1px 4px 1px rgba(112, 117, 122, 0.2);
+}
+
+button{
+  background-color: #f2f2f9 ;
+  padding: 8px 25px;
+  border-radius: 3px;
+  margin-left: 15px;  
+  border:none;
+  font-size: 0.8rem;
+}
+
+button:hover{
+  border: solid #d9d9d9 1px;
+}
+
+footer{
+  position: absolute;
+  background-color: #f2f2f9 ;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0%;
+  padding: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.flinks {
+  color: #70757a;
+}
+
